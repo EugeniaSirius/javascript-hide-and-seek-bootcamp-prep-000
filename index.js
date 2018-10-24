@@ -14,6 +14,6 @@ let li=document.getElementById('grand-node').querySelectorAll('div')
 function increaseRankBy(n)  {
   let upRank = document.getElementById('app').querySelectorAll('.ranked-list')
   for (let i=0; i<upRank.length; i++)  {
-    upRank.innerHTML=parseInt((upRank.innerHTML)+n)
+    upRank[i].innerHTML=parseInt((upRank[i].innerHTML)+n)
   }
 }
