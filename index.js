@@ -7,5 +7,8 @@ return document.querySelector('#nested').querySelector('.target')
 }
 
 function deepestChild()  {
-let node=document.getElementById('grand-node')
+let li=document.getElementById('grand-node').querySelectorAll('div')
+for (let i=0; i<li.length; i++)  {
+  li[i].innerHTML = (i+1).
+}
 }
