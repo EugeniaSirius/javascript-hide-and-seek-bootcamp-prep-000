@@ -11,3 +11,6 @@ let li=document.getElementById('grand-node').querySelectorAll('div')
  return li[li.length-1]
 }
 
+function increaseRankBy(n)  {
+  
+}
